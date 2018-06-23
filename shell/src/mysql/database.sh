@@ -1,8 +1,9 @@
 #!/bin/sh
+
 # auto  execute sql script
 
-user="you mysql username"
-password="your password"
+readonly user="you mysql username"
+readonly password="your password"
 
 ls *.sql | while read file
 do
