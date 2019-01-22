@@ -13,7 +13,7 @@
 #数据库用户
 declare -r mysql_user='root'
 #数据库密码
-declare -r mysql_password='Dahyper2018@123!'
+declare -r mysql_password='password'
 #要备份的数据库 数组
 declare -a database_array=('edb_device' 'edb_pay' 'eqplay_agent' 'eqplay_auth' 'eqplay_zipkin' 'test')
 #格式化日期
